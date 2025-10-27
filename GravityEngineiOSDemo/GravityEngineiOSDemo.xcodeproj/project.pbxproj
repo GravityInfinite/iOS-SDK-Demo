@@ -7,45 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58044077A5A170D62EA33FF5 /* libPods-GravityEngineiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 755197C34A2950BCD24C24A0 /* libPods-GravityEngineiOSDemo.a */; };
-		B379906A2EA8CACB00D3989C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B37990692EA8CACB00D3989C /* libz.tbd */; };
-		B379906C2EA8CAD100D3989C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B379906B2EA8CAD100D3989C /* Security.framework */; };
-		B379906E2EA8CAD600D3989C /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B379906D2EA8CAD600D3989C /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		B37990702EA8CADE00D3989C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B379906F2EA8CADE00D3989C /* SystemConfiguration.framework */; };
-		B37990722EA8CAE400D3989C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B37990712EA8CAE400D3989C /* libsqlite3.tbd */; };
-		B37990742EA8CAEA00D3989C /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37990732EA8CAEA00D3989C /* AppTrackingTransparency.framework */; };
-		B37990762EA8CAEF00D3989C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37990752EA8CAEF00D3989C /* AdSupport.framework */; };
+		1A78A1C47F166F55A73FB9B9 /* Pods_GravityEngineiOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FACA421B60937B7ED781212 /* Pods_GravityEngineiOSDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		755197C34A2950BCD24C24A0 /* libPods-GravityEngineiOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GravityEngineiOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD7E239984C22E971B22B5FF /* Pods-GravityEngineiOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravityEngineiOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-GravityEngineiOSDemo/Pods-GravityEngineiOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		B03F6B9F7940FC7B3E6CBA78 /* Pods-GravityEngineiOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravityEngineiOSDemo.release.xcconfig"; path = "Target Support Files/Pods-GravityEngineiOSDemo/Pods-GravityEngineiOSDemo.release.xcconfig"; sourceTree = "<group>"; };
-		B37990472EA8CA3900D3989C /* GravityEngineiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityEngineiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B37990692EA8CACB00D3989C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		B379906B2EA8CAD100D3989C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		B379906D2EA8CAD600D3989C /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
-		B379906F2EA8CADE00D3989C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		B37990712EA8CAE400D3989C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		B37990732EA8CAEA00D3989C /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-		B37990752EA8CAEF00D3989C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		17536FF5BD4FCD364D802B20 /* Pods-GravityEngineiOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravityEngineiOSDemo.release.xcconfig"; path = "Target Support Files/Pods-GravityEngineiOSDemo/Pods-GravityEngineiOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		1BDEB6D89BC3C2BB699E5935 /* Pods-GravityEngineiOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravityEngineiOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-GravityEngineiOSDemo/Pods-GravityEngineiOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7FACA421B60937B7ED781212 /* Pods_GravityEngineiOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravityEngineiOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35D5EE12EAF840B0093E8D9 /* GravityEngineiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityEngineiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B379905E2EA8CA3A00D3989C /* Exceptions for "GravityEngineiOSDemo" folder in "GravityEngineiOSDemo" target */ = {
+		B35D5EF82EAF840D0093E8D9 /* Exceptions for "GravityEngineiOSDemo" folder in "GravityEngineiOSDemo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = B37990462EA8CA3900D3989C /* GravityEngineiOSDemo */;
+			target = B35D5EE02EAF840B0093E8D9 /* GravityEngineiOSDemo */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B37990492EA8CA3900D3989C /* GravityEngineiOSDemo */ = {
+		B35D5EE32EAF840B0093E8D9 /* GravityEngineiOSDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B379905E2EA8CA3A00D3989C /* Exceptions for "GravityEngineiOSDemo" folder in "GravityEngineiOSDemo" target */,
+				B35D5EF82EAF840D0093E8D9 /* Exceptions for "GravityEngineiOSDemo" folder in "GravityEngineiOSDemo" target */,
 			);
 			path = GravityEngineiOSDemo;
 			sourceTree = "<group>";
@@ -53,126 +39,111 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B37990442EA8CA3900D3989C /* Frameworks */ = {
+		B35D5EDE2EAF840B0093E8D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37990762EA8CAEF00D3989C /* AdSupport.framework in Frameworks */,
-				B37990742EA8CAEA00D3989C /* AppTrackingTransparency.framework in Frameworks */,
-				B37990722EA8CAE400D3989C /* libsqlite3.tbd in Frameworks */,
-				B37990702EA8CADE00D3989C /* SystemConfiguration.framework in Frameworks */,
-				B379906E2EA8CAD600D3989C /* AdServices.framework in Frameworks */,
-				B379906C2EA8CAD100D3989C /* Security.framework in Frameworks */,
-				B379906A2EA8CACB00D3989C /* libz.tbd in Frameworks */,
-				58044077A5A170D62EA33FF5 /* libPods-GravityEngineiOSDemo.a in Frameworks */,
+				1A78A1C47F166F55A73FB9B9 /* Pods_GravityEngineiOSDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A04E5A885277D59837F99513 /* Pods */ = {
+		56B047F072E9C844460B36E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD7E239984C22E971B22B5FF /* Pods-GravityEngineiOSDemo.debug.xcconfig */,
-				B03F6B9F7940FC7B3E6CBA78 /* Pods-GravityEngineiOSDemo.release.xcconfig */,
+				7FACA421B60937B7ED781212 /* Pods_GravityEngineiOSDemo.framework */,
 			);
-			name = Pods;
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B379903E2EA8CA3900D3989C = {
+		B35D5ED82EAF840B0093E8D9 = {
 			isa = PBXGroup;
 			children = (
-				B37990492EA8CA3900D3989C /* GravityEngineiOSDemo */,
-				B37990682EA8CACA00D3989C /* Frameworks */,
-				B37990482EA8CA3900D3989C /* Products */,
-				A04E5A885277D59837F99513 /* Pods */,
+				B35D5EE32EAF840B0093E8D9 /* GravityEngineiOSDemo */,
+				B35D5EE22EAF840B0093E8D9 /* Products */,
+				C7BBA1DC3B242BF283F0640C /* Pods */,
+				56B047F072E9C844460B36E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B37990482EA8CA3900D3989C /* Products */ = {
+		B35D5EE22EAF840B0093E8D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B37990472EA8CA3900D3989C /* GravityEngineiOSDemo.app */,
+				B35D5EE12EAF840B0093E8D9 /* GravityEngineiOSDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B37990682EA8CACA00D3989C /* Frameworks */ = {
+		C7BBA1DC3B242BF283F0640C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B37990752EA8CAEF00D3989C /* AdSupport.framework */,
-				B37990732EA8CAEA00D3989C /* AppTrackingTransparency.framework */,
-				B37990712EA8CAE400D3989C /* libsqlite3.tbd */,
-				B379906F2EA8CADE00D3989C /* SystemConfiguration.framework */,
-				B379906D2EA8CAD600D3989C /* AdServices.framework */,
-				B379906B2EA8CAD100D3989C /* Security.framework */,
-				B37990692EA8CACB00D3989C /* libz.tbd */,
-				755197C34A2950BCD24C24A0 /* libPods-GravityEngineiOSDemo.a */,
+				1BDEB6D89BC3C2BB699E5935 /* Pods-GravityEngineiOSDemo.debug.xcconfig */,
+				17536FF5BD4FCD364D802B20 /* Pods-GravityEngineiOSDemo.release.xcconfig */,
 			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B37990462EA8CA3900D3989C /* GravityEngineiOSDemo */ = {
+		B35D5EE02EAF840B0093E8D9 /* GravityEngineiOSDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B379905F2EA8CA3A00D3989C /* Build configuration list for PBXNativeTarget "GravityEngineiOSDemo" */;
+			buildConfigurationList = B35D5EF92EAF840D0093E8D9 /* Build configuration list for PBXNativeTarget "GravityEngineiOSDemo" */;
 			buildPhases = (
-				80835E403808B4AB67E4CDEC /* [CP] Check Pods Manifest.lock */,
-				B37990432EA8CA3900D3989C /* Sources */,
-				B37990442EA8CA3900D3989C /* Frameworks */,
-				B37990452EA8CA3900D3989C /* Resources */,
+				6361BD23010669D274B70A76 /* [CP] Check Pods Manifest.lock */,
+				B35D5EDD2EAF840B0093E8D9 /* Sources */,
+				B35D5EDE2EAF840B0093E8D9 /* Frameworks */,
+				B35D5EDF2EAF840B0093E8D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B37990492EA8CA3900D3989C /* GravityEngineiOSDemo */,
+				B35D5EE32EAF840B0093E8D9 /* GravityEngineiOSDemo */,
 			);
 			name = GravityEngineiOSDemo;
 			productName = GravityEngineiOSDemo;
-			productReference = B37990472EA8CA3900D3989C /* GravityEngineiOSDemo.app */;
+			productReference = B35D5EE12EAF840B0093E8D9 /* GravityEngineiOSDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B379903F2EA8CA3900D3989C /* Project object */ = {
+		B35D5ED92EAF840B0093E8D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					B37990462EA8CA3900D3989C = {
+					B35D5EE02EAF840B0093E8D9 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
 				};
 			};
-			buildConfigurationList = B37990422EA8CA3900D3989C /* Build configuration list for PBXProject "GravityEngineiOSDemo" */;
+			buildConfigurationList = B35D5EDC2EAF840B0093E8D9 /* Build configuration list for PBXProject "GravityEngineiOSDemo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B379903E2EA8CA3900D3989C;
+			mainGroup = B35D5ED82EAF840B0093E8D9;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B37990482EA8CA3900D3989C /* Products */;
+			productRefGroup = B35D5EE22EAF840B0093E8D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B37990462EA8CA3900D3989C /* GravityEngineiOSDemo */,
+				B35D5EE02EAF840B0093E8D9 /* GravityEngineiOSDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B37990452EA8CA3900D3989C /* Resources */ = {
+		B35D5EDF2EAF840B0093E8D9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -182,7 +153,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		80835E403808B4AB67E4CDEC /* [CP] Check Pods Manifest.lock */ = {
+		6361BD23010669D274B70A76 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,7 +178,7 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B37990432EA8CA3900D3989C /* Sources */ = {
+		B35D5EDD2EAF840B0093E8D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -217,20 +188,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B37990602EA8CA3A00D3989C /* Debug */ = {
+		B35D5EFA2EAF840D0093E8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD7E239984C22E971B22B5FF /* Pods-GravityEngineiOSDemo.debug.xcconfig */;
+			baseConfigurationReference = 1BDEB6D89BC3C2BB699E5935 /* Pods-GravityEngineiOSDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 49SFMN28RH;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/GravityEngineiOSDemo/sdk",
-				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GravityEngineiOSDemo/Info.plist;
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "此标识符将用于向您推荐个性化广告。";
@@ -245,30 +211,23 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gravity.ios.demo.GravityEngineiOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B37990612EA8CA3A00D3989C /* Release */ = {
+		B35D5EFB2EAF840D0093E8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B03F6B9F7940FC7B3E6CBA78 /* Pods-GravityEngineiOSDemo.release.xcconfig */;
+			baseConfigurationReference = 17536FF5BD4FCD364D802B20 /* Pods-GravityEngineiOSDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 49SFMN28RH;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/GravityEngineiOSDemo/sdk",
-				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GravityEngineiOSDemo/Info.plist;
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "此标识符将用于向您推荐个性化广告。";
@@ -283,17 +242,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gravity.ios.demo.GravityEngineiOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		B37990622EA8CA3A00D3989C /* Debug */ = {
+		B35D5EFC2EAF840D0093E8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,6 +285,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 49SFMN28RH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -354,7 +312,7 @@
 			};
 			name = Debug;
 		};
-		B37990632EA8CA3A00D3989C /* Release */ = {
+		B35D5EFD2EAF840D0093E8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,6 +347,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 49SFMN28RH;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -412,25 +371,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B37990422EA8CA3900D3989C /* Build configuration list for PBXProject "GravityEngineiOSDemo" */ = {
+		B35D5EDC2EAF840B0093E8D9 /* Build configuration list for PBXProject "GravityEngineiOSDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B37990622EA8CA3A00D3989C /* Debug */,
-				B37990632EA8CA3A00D3989C /* Release */,
+				B35D5EFC2EAF840D0093E8D9 /* Debug */,
+				B35D5EFD2EAF840D0093E8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B379905F2EA8CA3A00D3989C /* Build configuration list for PBXNativeTarget "GravityEngineiOSDemo" */ = {
+		B35D5EF92EAF840D0093E8D9 /* Build configuration list for PBXNativeTarget "GravityEngineiOSDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B37990602EA8CA3A00D3989C /* Debug */,
-				B37990612EA8CA3A00D3989C /* Release */,
+				B35D5EFA2EAF840D0093E8D9 /* Debug */,
+				B35D5EFB2EAF840D0093E8D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B379903F2EA8CA3900D3989C /* Project object */;
+	rootObject = B35D5ED92EAF840B0093E8D9 /* Project object */;
 }

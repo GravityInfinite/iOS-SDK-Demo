@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A9D77C65DF40B745F580E621399F1622"
-               BuildableName = "libPods-GravityEngineiOSDemo.a"
+               BuildableName = "Pods_GravityEngineiOSDemo.framework"
                BlueprintName = "Pods-GravityEngineiOSDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
