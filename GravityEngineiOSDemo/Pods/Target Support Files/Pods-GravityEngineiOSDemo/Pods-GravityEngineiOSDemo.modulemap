@@ -1,0 +1,6 @@
+module Pods_GravityEngineiOSDemo {
+  umbrella header "Pods-GravityEngineiOSDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

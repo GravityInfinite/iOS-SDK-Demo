@@ -1,0 +1,16 @@
+PODS:
+  - GravityEngineSDK (5.0.9)
+
+DEPENDENCIES:
+  - GravityEngineSDK
+
+SPEC REPOS:
+  trunk:
+    - GravityEngineSDK
+
+SPEC CHECKSUMS:
+  GravityEngineSDK: e7850a74473b5f6247ed39aa33a00dbd06084dbf
+
+PODFILE CHECKSUM: 927dd48cb8e2f09bbe7e55d14e029eadae6074e5
+
+COCOAPODS: 1.16.2

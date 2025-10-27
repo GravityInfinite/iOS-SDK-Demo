@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58044077A5A170D62EA33FF5 /* libPods-GravityEngineiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 755197C34A2950BCD24C24A0 /* libPods-GravityEngineiOSDemo.a */; };
+		B379906A2EA8CACB00D3989C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B37990692EA8CACB00D3989C /* libz.tbd */; };
+		B379906C2EA8CAD100D3989C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B379906B2EA8CAD100D3989C /* Security.framework */; };
+		B379906E2EA8CAD600D3989C /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B379906D2EA8CAD600D3989C /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B37990702EA8CADE00D3989C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B379906F2EA8CADE00D3989C /* SystemConfiguration.framework */; };
+		B37990722EA8CAE400D3989C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B37990712EA8CAE400D3989C /* libsqlite3.tbd */; };
+		B37990742EA8CAEA00D3989C /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37990732EA8CAEA00D3989C /* AppTrackingTransparency.framework */; };
+		B37990762EA8CAEF00D3989C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37990752EA8CAEF00D3989C /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		755197C34A2950BCD24C24A0 /* libPods-GravityEngineiOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GravityEngineiOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7E239984C22E971B22B5FF /* Pods-GravityEngineiOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravityEngineiOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-GravityEngineiOSDemo/Pods-GravityEngineiOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B03F6B9F7940FC7B3E6CBA78 /* Pods-GravityEngineiOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravityEngineiOSDemo.release.xcconfig"; path = "Target Support Files/Pods-GravityEngineiOSDemo/Pods-GravityEngineiOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B37990472EA8CA3900D3989C /* GravityEngineiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityEngineiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37990692EA8CACB00D3989C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B379906B2EA8CAD100D3989C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B379906D2EA8CAD600D3989C /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		B379906F2EA8CADE00D3989C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B37990712EA8CAE400D3989C /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B37990732EA8CAEA00D3989C /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		B37990752EA8CAEF00D3989C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B379905E2EA8CA3A00D3989C /* Exceptions for "GravityEngineiOSDemo" folder in "GravityEngineiOSDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B37990462EA8CA3900D3989C /* GravityEngineiOSDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B37990492EA8CA3900D3989C /* GravityEngineiOSDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B379905E2EA8CA3A00D3989C /* Exceptions for "GravityEngineiOSDemo" folder in "GravityEngineiOSDemo" target */,
+			);
+			path = GravityEngineiOSDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B37990442EA8CA3900D3989C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37990762EA8CAEF00D3989C /* AdSupport.framework in Frameworks */,
+				B37990742EA8CAEA00D3989C /* AppTrackingTransparency.framework in Frameworks */,
+				B37990722EA8CAE400D3989C /* libsqlite3.tbd in Frameworks */,
+				B37990702EA8CADE00D3989C /* SystemConfiguration.framework in Frameworks */,
+				B379906E2EA8CAD600D3989C /* AdServices.framework in Frameworks */,
+				B379906C2EA8CAD100D3989C /* Security.framework in Frameworks */,
+				B379906A2EA8CACB00D3989C /* libz.tbd in Frameworks */,
+				58044077A5A170D62EA33FF5 /* libPods-GravityEngineiOSDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A04E5A885277D59837F99513 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E239984C22E971B22B5FF /* Pods-GravityEngineiOSDemo.debug.xcconfig */,
+				B03F6B9F7940FC7B3E6CBA78 /* Pods-GravityEngineiOSDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B379903E2EA8CA3900D3989C = {
+			isa = PBXGroup;
+			children = (
+				B37990492EA8CA3900D3989C /* GravityEngineiOSDemo */,
+				B37990682EA8CACA00D3989C /* Frameworks */,
+				B37990482EA8CA3900D3989C /* Products */,
+				A04E5A885277D59837F99513 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B37990482EA8CA3900D3989C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B37990472EA8CA3900D3989C /* GravityEngineiOSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B37990682EA8CACA00D3989C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B37990752EA8CAEF00D3989C /* AdSupport.framework */,
+				B37990732EA8CAEA00D3989C /* AppTrackingTransparency.framework */,
+				B37990712EA8CAE400D3989C /* libsqlite3.tbd */,
+				B379906F2EA8CADE00D3989C /* SystemConfiguration.framework */,
+				B379906D2EA8CAD600D3989C /* AdServices.framework */,
+				B379906B2EA8CAD100D3989C /* Security.framework */,
+				B37990692EA8CACB00D3989C /* libz.tbd */,
+				755197C34A2950BCD24C24A0 /* libPods-GravityEngineiOSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B37990462EA8CA3900D3989C /* GravityEngineiOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B379905F2EA8CA3A00D3989C /* Build configuration list for PBXNativeTarget "GravityEngineiOSDemo" */;
+			buildPhases = (
+				80835E403808B4AB67E4CDEC /* [CP] Check Pods Manifest.lock */,
+				B37990432EA8CA3900D3989C /* Sources */,
+				B37990442EA8CA3900D3989C /* Frameworks */,
+				B37990452EA8CA3900D3989C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B37990492EA8CA3900D3989C /* GravityEngineiOSDemo */,
+			);
+			name = GravityEngineiOSDemo;
+			productName = GravityEngineiOSDemo;
+			productReference = B37990472EA8CA3900D3989C /* GravityEngineiOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B379903F2EA8CA3900D3989C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					B37990462EA8CA3900D3989C = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B37990422EA8CA3900D3989C /* Build configuration list for PBXProject "GravityEngineiOSDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B379903E2EA8CA3900D3989C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B37990482EA8CA3900D3989C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37990462EA8CA3900D3989C /* GravityEngineiOSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B37990452EA8CA3900D3989C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80835E403808B4AB67E4CDEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GravityEngineiOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B37990432EA8CA3900D3989C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B37990602EA8CA3A00D3989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7E239984C22E971B22B5FF /* Pods-GravityEngineiOSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49SFMN28RH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GravityEngineiOSDemo/sdk",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GravityEngineiOSDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "此标识符将用于向您推荐个性化广告。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravity.ios.demo.GravityEngineiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B37990612EA8CA3A00D3989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B03F6B9F7940FC7B3E6CBA78 /* Pods-GravityEngineiOSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49SFMN28RH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GravityEngineiOSDemo/sdk",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GravityEngineiOSDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "此标识符将用于向您推荐个性化广告。";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravity.ios.demo.GravityEngineiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B37990622EA8CA3A00D3989C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B37990632EA8CA3A00D3989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B37990422EA8CA3900D3989C /* Build configuration list for PBXProject "GravityEngineiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37990622EA8CA3A00D3989C /* Debug */,
+				B37990632EA8CA3A00D3989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B379905F2EA8CA3A00D3989C /* Build configuration list for PBXNativeTarget "GravityEngineiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37990602EA8CA3A00D3989C /* Debug */,
+				B37990612EA8CA3A00D3989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B379903F2EA8CA3900D3989C /* Project object */;
+}
